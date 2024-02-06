@@ -27,7 +27,6 @@ The `Task3_EDA_Billboard.ipynb` notebook covers exploratory data analysis and th
 ```sql
 -- SQL script to create the music table
 CREATE TABLE music (
-    id INT PRIMARY KEY AUTO_INCREMENT,
     artist VARCHAR(255),
     title VARCHAR(255),
     label INT,

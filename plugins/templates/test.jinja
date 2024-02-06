@@ -1,0 +1,33 @@
+{% from "_formhelpers.jinja" import render_field %}
+<form method="post" style="max-width: 400px; margin: 0 auto;">
+  <dl>
+    {{ render_field(form.chromastft, style="font-size: 1.5em;") }}
+    {{ render_field(form.rms, style="font-size: 1.5em;") }}
+    {{ render_field(form.spectral_centroid, style="font-size: 1.5em;") }}
+    {{ render_field(form.spectral_bandwidth, style="font-size: 1.5em;") }}
+    {{ render_field(form.spectral_rolloff, style="font-size: 1.5em;") }}
+    {{ render_field(form.zero_crossing_rate, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_1, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_2, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_3, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_4, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_5, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_6, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_7, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_8, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_9, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_10, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_11, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_12, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_13, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_14, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_15, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_16, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_17, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_18, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_19, style="font-size: 1.5em;") }}
+    {{ render_field(form.mfcc_20, style="font-size: 1.5em;") }}
+  </dl>
+  <p><input type="submit" value="Predict" style="background-color: #4CAF50; color: black; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;"></p>
+</form>
+

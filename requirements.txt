@@ -1,0 +1,5 @@
+Flask
+WTForms
+joblib==1.3.2
+xgboost==2.0.2
+scikit-learn

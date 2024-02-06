@@ -18,6 +18,19 @@ In this phase, we utilize the `Billboard.csv` file and `youtube_dl` to download 
 
 The `Task3_EDA_Billboard.ipynb` notebook covers exploratory data analysis and the training task of the data using the XGBoost algorithm. While you have the flexibility to try different algorithms like KNN/SVM, in this project, we focus on XGBoost for its suitability. Note that this is not an ML-centric project.
 
+### Docker
+
+1. Build the Docker image:
+    ```bash
+    docker build -t airflow .
+    ```
+
+2. Start the Docker containers with Docker Compose:
+    ```bash
+    docker-compose up
+    ```
+![docker](images/img7.png)
+
 ### Uploading Data to PostgreSQL Database
 
 1. Make sure you have PostgreSQL installed and running.
